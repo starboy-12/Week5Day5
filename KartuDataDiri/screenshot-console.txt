@@ -1,0 +1,28 @@
+--- Tipe Data (Bagian 1 & 2) ---
+namaLengkap : string
+asalPondok : string
+umur : number
+sudahSelesaiTugas : boolean
+skorProgres : number
+dataDariServer : object
+belumDiberiNilai : undefined
+materiDipelajari : object
+profilSantri : object
+
+profilSantri (contoh isi 1-2 properti): Muhammad Fadhil , 20
+
+--- Studi Kasus: Penjumlahan String vs Number ---
+tahunMasuk + 2 = 20232
+Number(tahunMasuk) + 2 = 2025
+
+--- Ringkasan ---
+Skor progres akhir: 15
+Profil lengkap: {
+  nama: 'Muhammad Fadhil',
+  asal: 'Pondok IT',
+  umur: 20,
+  sudahSelesaiTugas: false,
+  materiDipelajari: [ 'HTML', 'CSS', 'JavaScript' ],
+  dataDariServer: null,
+  skorProgres: 15
+}
